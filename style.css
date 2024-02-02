@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+body{
+    background-color: #d4bbbb!important;
+}
+#ht{
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.img1{
+    display: flex;
+}
+/* .span1{
+    display: flex !important;
+    text-align: left !important;
+    justify-content: left !important;
+} */
+/* #ht:hover{
+    font-size: 1.4rem;
+} */
+
+#btn1 {
+    font-size: 1.35rem;
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#t-btn1{
+    font-size: 1.3rem;
+    text-transform: uppercase;
+}
+.ml2 {
+    height: 22%;
+    width: 22%;
+    border: 6px solid white;
+}
+.container2 {
+    height: 15%;
+    width: 62%;
+}
+#img1{
+    width: 24%;
+}
+#img2 {
+    height: 9%;
+    width: 25%;
+}
+#img3{
+    margin-top: -5%;
+}
+#img5{
+    margin-top: 0.3%;
+}
+#img4{
+    margin-top: -10.3%;
+}
+#img6{
+    margin-top: 0.5%;
+}
+#img7{
+    margin-top: -42%;
+}
+#img8{
+    margin-top: -42%;
+}
+#img10{
+    margin-top: -15.7%;
+}
+#img11{
+    margin-top: -15.7%;
+}
+#img12{
+    margin-top: -15.7%;
+}
+#img13 {
+    margin-top: -47%;
+}
+#img9 {
+    margin-top: -5%;
+}
+#img14{
+    margin-top: 0.4%;
+}
+
+/* *****ABOUT***** */
+
+.flex-container{
+    display: flex;
+}
+
+.right{
+
+    height: 50vh;
+    width: 50vw;
+}
+
+/* *****RIGHT***** */
+.right img{
+    height: 28.125rem;
+    width: 28.125rem;
+    margin-left: 8.313rem;
+}
+/* *****LEFT***** */
+.left{
+    
+    height: 50vh;
+    width: 50vw;
+    font-style: fira sans !important;
+    margin-top: 15vh
+}
+
+.left span1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.left span2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.left span3{
+    font-size: 50px;
+    text-transform: uppercase;
+}
+/* .left span4{
+    font-size: 50px;
+} */
+
+.flex-container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.flex-container3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.lineOne{
+    height: 5rem;
+    width: 5rem;
+}
+
+/* *******LAST BTN*********** */
+/* .btn-outline-primary{
+
+   margin-left: 16%;
+} */
+
+.containerl{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    .mb-4{
+        margin-right: 148px;
+    }
+    .flex-container3{
+     display: flex;
+     flex-direction: column;
+    }
+    .flex-container{
+     display: flex;
+     flex-direction: column;
+    }
+    .left{
+        margin-top: 3vh;
+    }
+    .left span1{
+        font-size: 20px;
+        width: 100%;
+    }
+    .left span2{
+        font-size: 20px;
+        width: 100%;
+    }
+    .left span3{
+        font-size: 35px;
+        width: 100%;
+    }
+    .right{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center;
+    }
+
+    .right img{
+
+        margin-top:3.73913vh;
+        height:20rem;
+        width: 20rem;
+        margin-left: 9.313rem !important;
+    }
+    .py-3{
+        margin-right: -2px 
+    }
+    .rounded-pill {
+        margin-top: 0.75rem;
+        margin-left: 0.75rem;
+    }
+}
